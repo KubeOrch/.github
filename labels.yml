@@ -1,0 +1,221 @@
+- name: area/api
+  color: '#0052cc'
+  description: REST endpoints
+
+- name: area/config
+  color: '#d4c5f9'
+  description: Config, env, CORS, middlewares
+
+- name: area/core
+  color: '#5319e7'
+  description: Go backend (server, models, handlers, DB)
+
+- name: area/db
+  color: '#c2e0c6'
+  description: Database setup, migrations
+
+- name: area/layout
+  color: '#bfdadc'
+  description: UI layout/navigation
+
+- name: area/ui
+  color: '#1d76db'
+  description: Next.js frontend (components, pages, styling)
+
+- name: bug
+  color: '#d73a4a'
+  description: Something isn't working
+
+- name: documentation
+  color: '#0075ca'
+  description: Improvements or additions to documentation
+
+- name: duplicate
+  color: '#cfd3d7'
+  description: This issue or pull request already exists
+
+- name: enhancement
+  color: '#a2eeef'
+  description: New feature or request
+
+- name: good first issue
+  color: '#7057ff'
+  description: Good for newcomers
+
+- name: help wanted
+  color: '#008672'
+  description: Extra attention is needed
+
+- name: invalid
+  color: '#e4e669'
+  description: This doesn't seem right
+
+- name: kind/crud
+  color: '#f9d0c4'
+  description: User CRUD functionality
+
+- name: kind/docs
+  color: '#c5def5'
+  description: Documentation, README, examples
+
+- name: kind/feature
+  color: '#e99695'
+  description: New features like search, pagination
+
+- name: kind/infra
+  color: '#0052cc'
+  description: Project skeleton, environment setup
+
+- name: kind/integration
+  color: '#fef2c0'
+  description: Connecting frontend with backend
+
+- name: kind/validation
+  color: '#f1c232'
+  description: Input validation, error handling
+
+- name: priority/critical
+  color: '#b60205'
+  description: Must be done first
+
+- name: priority/high
+  color: '#d93f0b'
+  description: ''
+
+- name: priority/low
+  color: '#0e8a16'
+  description: ''
+
+- name: priority/medium
+  color: '#fbca04'
+  description: ''
+
+- name: question
+  color: '#d876e3'
+  description: Further information is requested
+
+- name: status/help-wanted
+  color: '#159818'
+  description: If someone needs pairing/assistance
+
+- name: wontfix
+  color: '#ffffff'
+  description: This will not be worked on
+
+# Additional Project-Specific Labels
+
+- name: area/ai-ml
+  color: '#ff6b6b'
+  description: AI/ML optimization and intelligence features
+
+- name: area/security
+  color: '#ff4757'
+  description: Security policies, RBAC, compliance
+
+- name: area/optimization
+  color: '#2ed573'
+  description: Resource and cost optimization features
+
+- name: area/gitops
+  color: '#ffa502'
+  description: Git integration and version control
+
+- name: area/multi-cloud
+  color: '#3742fa'
+  description: Multi-cloud deployment and management
+
+- name: area/workflow
+  color: '#70a1ff'
+  description: Workflow engine and orchestration
+
+- name: area/monitoring
+  color: '#5f27cd'
+  description: Observability, metrics, and monitoring
+
+- name: area/testing
+  color: '#00d2d3'
+  description: Testing, quality assurance, validation
+
+- name: area/performance
+  color: '#ff9ff3'
+  description: Performance optimization and benchmarking
+
+- name: kind/refactor
+  color: '#fbca04'
+  description: Code refactoring and technical improvements
+
+- name: kind/research
+  color: '#0e8a16'
+  description: Research spikes and proof of concepts
+
+- name: kind/technical-debt
+  color: '#d93f0b'
+  description: Technical debt and code quality improvements
+
+- name: kind/epic
+  color: '#0052cc'
+  description: Large feature or initiative spanning multiple issues
+
+- name: sprint/current
+  color: '#1d76db'
+  description: Currently active sprint items
+
+- name: sprint/next
+  color: '#0366d6'
+  description: Next sprint planned items
+
+- name: sprint/backlog
+  color: '#6f42c1'
+  description: Sprint backlog items
+
+- name: team/mohit
+  color: '#28a745'
+  description: Assigned to Mohit (Backend & Infrastructure)
+
+- name: team/kshitij
+  color: '#17a2b8'
+  description: Assigned to Kshitij (Frontend & UX)
+
+- name: team/naman
+  color: '#ffc107'
+  description: Assigned to Naman (Security & DevOps)
+
+- name: team/rishi
+  color: '#e83e8c'
+  description: Assigned to Rishi (AI/ML & Optimization)
+
+- name: size/xs
+  color: '#c2e0c6'
+  description: Extra small task (1-2 hours)
+
+- name: size/s
+  color: '#bfdadc'
+  description: Small task (0.5 day)
+
+- name: size/m
+  color: '#d4c5f9'
+  description: Medium task (1-2 days)
+
+- name: size/l
+  color: '#f9d0c4'
+  description: Large task (3-5 days)
+
+- name: size/xl
+  color: '#fef2c0'
+  description: Extra large task (1+ week)
+
+- name: blocked
+  color: '#b60205'
+  description: Issue is blocked by another issue or external factor
+
+- name: needs-review
+  color: '#0366d6'
+  description: Needs code review or technical review
+
+- name: needs-testing
+  color: '#7057ff'
+  description: Requires testing before closing
+
+- name: demo-ready
+  color: '#28a745'
+  description: Ready for demonstration or presentation
