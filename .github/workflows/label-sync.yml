@@ -23,21 +23,13 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           
-          # Auto-discover all repositories in the KubeOrchestra organization
-          auto-discover-repos: true
-          account-type: org
-          owner: KubeOrchestra
-          
-          # Optional: Exclude specific repositories if needed
-          # exclude-repos: |
-          #   repository-to-exclude-1
-          #   repository-to-exclude-2
-          
-          # Optional: Exclude forked, archived, private, or disabled repositories
-          exclude-forked-repos: true
-          exclude-archived-repos: true
-          exclude-private-repos: false  # Set to true if you want to exclude private repos
-          exclude-disabled-repos: true
+          # Explicitly specify only KubeOrchestra repositories
+          repositories: |
+            KubeOrchestra/.github
+            KubeOrchestra/community
+            KubeOrchestra/core
+            KubeOrchestra/ui
+            KubeOrchestra/cli
           
           # Optional: Clean other labels not defined in the config file
           clean-labels: false
