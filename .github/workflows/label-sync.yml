@@ -32,4 +32,4 @@ jobs:
             KubeOrchestra/cli
           
           # Optional: Clean other labels not defined in the config file
-          clean-labels: false
+          clean-labels: true

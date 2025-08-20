@@ -26,10 +26,6 @@
   color: '#d73a4a'
   description: Something isn't working
 
-- name: documentation
-  color: '#0075ca'
-  description: Improvements or additions to documentation
-
 - name: duplicate
   color: '#cfd3d7'
   description: This issue or pull request already exists
@@ -167,22 +163,6 @@
 - name: sprint/backlog
   color: '#6f42c1'
   description: Sprint backlog items
-
-- name: team/mohit
-  color: '#28a745'
-  description: Assigned to Mohit (Backend & Infrastructure)
-
-- name: team/kshitij
-  color: '#17a2b8'
-  description: Assigned to Kshitij (Frontend & UX)
-
-- name: team/naman
-  color: '#ffc107'
-  description: Assigned to Naman (Security & DevOps)
-
-- name: team/rishi
-  color: '#e83e8c'
-  description: Assigned to Rishi (AI/ML & Optimization)
 
 - name: size/xs
   color: '#c2e0c6'
