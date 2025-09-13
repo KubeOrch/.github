@@ -1,16 +1,16 @@
-# Contributing to KubeOrchestra
+# Contributing to KubeOrch
 
-Welcome to KubeOrchestra! We're excited that you're interested in contributing to our visual Kubernetes workflow orchestrator. This guide will help you get started with contributing to the project.
+Welcome to KubeOrch! We're excited that you're interested in contributing to our visual Kubernetes workflow orchestrator. This guide will help you get started with contributing to the project.
 
 ## Our Mission
 
-KubeOrchestra aims to provide a drag-and-drop deployment platform for Kubernetes, making container orchestration accessible to developers of all skill levels while providing cost optimization and alerting features for companies using their own infrastructure.
+KubeOrch aims to provide a drag-and-drop deployment platform for Kubernetes, making container orchestration accessible to developers of all skill levels while providing cost optimization and alerting features for companies using their own infrastructure.
 
 ## How to Contribute
 
 ### Our Workflow
 
-Contributing to KubeOrchestra should be as simple as possible. Have a question? Want to discuss something? Want to contribute something? Just open an Issue or a Pull Request.
+Contributing to KubeOrch should be as simple as possible. Have a question? Want to discuss something? Want to contribute something? Just open an Issue or a Pull Request.
 
 If you spot a bug or want to change something straightforward, go ahead and open an Issue and/or a Pull Request with your changes.
 
@@ -42,7 +42,7 @@ We follow a feature-based development approach rather than component-based to mi
 
 ### Architecture Overview
 
-KubeOrchestra is designed as a self-deployable application to mitigate security risks and reduce infrastructure costs. The platform includes:
+KubeOrch is designed as a self-deployable application to mitigate security risks and reduce infrastructure costs. The platform includes:
 - Docker Compose packaging for easy deployment
 - Self-hosted database for user configurations and deployment states
 - IAM roles integration for secure cloud access
@@ -114,7 +114,7 @@ Maintainers will review your code and provide productive feedback. If you feel b
 
 ### Becoming a Member
 
-Contributors who frequently contribute to the project may ask to join the KubeOrchestra organization. Active contributors who demonstrate:
+Contributors who frequently contribute to the project may ask to join the KubeOrch organization. Active contributors who demonstrate:
 - Consistent, quality contributions
 - Understanding of project goals and architecture  
 - Collaborative approach to development
@@ -154,7 +154,7 @@ Our self-deployable architecture means you can run the entire stack locally usin
 
 ## Community
 
-We are building KubeOrchestra to be a community-driven project that makes Kubernetes accessible to everyone. Whether you're interested in:
+We are building KubeOrch to be a community-driven project that makes Kubernetes accessible to everyone. Whether you're interested in:
 - Frontend development (React, TypeScript, drag-and-drop interfaces)
 - Backend development (Go, Kubernetes APIs, cloud integrations)
 - DevOps and infrastructure (Kubernetes, CI/CD, deployment automation)
@@ -165,4 +165,4 @@ Your contributions are welcome and valued!
 
 ---
 
-Thank you for contributing to KubeOrchestra! Together, we're making Kubernetes deployment beautiful and accessible.
+Thank you for contributing to KubeOrch! Together, we're making Kubernetes deployment beautiful and accessible.

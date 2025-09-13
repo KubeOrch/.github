@@ -9,16 +9,16 @@
 
 ## Maintainers
 
-KubeOrchestra Maintainers govern the project. Maintainers collectively manage the 
+KubeOrch Maintainers govern the project. Maintainers collectively manage the 
 project's resources and contributors, and speak for the project in public. The
 maintainers collectively decide any questions that cannot be resolved at the 
 individual repository level, and provide strategic guidance for the project
 overall.
 
-The current maintainers can be found in [MAINTAINERS](https://github.com/KubeOrchestra/community/blob/main/MAINTAINERS.md).
+The current maintainers can be found in [MAINTAINERS](https://github.com/KubeOrch/community/blob/main/MAINTAINERS.md).
 
 This privilege is granted with some expectation of responsibility: maintainers
-are people who care about the KubeOrchestra project and want to help it grow and
+are people who care about the KubeOrch project and want to help it grow and
 improve. A maintainer is not just someone who can make changes, but someone who
 has demonstrated their ability to collaborate with the team, get the most
 knowledgeable people to review code and docs, contribute high-quality code, and
@@ -47,7 +47,7 @@ For nominations, the maintainers will look at the following criteria:
 * Are they willing to take on the additional duties of a maintainer?
 
 A candidate must be proposed by an existing maintainer by filing a PR in the
-[Community Repository](https://github.com/KubeOrchestra/community) against the MAINTAINERS.md file. 
+[Community Repository](https://github.com/KubeOrch/community) against the MAINTAINERS.md file. 
 A simple majority vote of +1s from existing Maintainers approves the application.
 
 ## Meetings
@@ -64,14 +64,14 @@ accused of a CoC violation.
 ## CNCF Resources
 
 Any Maintainer may suggest a request for CNCF resources in the
-[Community Discussions](https://github.com/KubeOrchestra/community/discussions), 
+[Community Discussions](https://github.com/KubeOrch/community/discussions), 
 on GitHub issues, or during a community meeting. A simple majority of Maintainers 
 approves the request. The Maintainers may also choose to delegate working with 
 the CNCF to non-Maintainer community members.
 
 ## Code of Conduct
 
-[Code of Conduct](https://github.com/KubeOrchestra/.github/blob/main/CODE_OF_CONDUCT.md)
+[Code of Conduct](https://github.com/KubeOrch/.github/blob/main/CODE_OF_CONDUCT.md)
 violations by community members will be discussed and resolved through private
 discussions among maintainers. If the reported CoC violator is a Maintainer, 
 the other Maintainers will designate two Maintainers to work with CNCF staff 
@@ -87,16 +87,16 @@ Maintainers may also be demoted at any time for one of the following reasons:
 * Inactivity, including 6 months or more of non-participation or non-communication,
 * Refusal to abide by this Governance,
 * Violations of the Code of Conduct,
-* Other actions that harm the reputation, stability, or harmony of the KubeOrchestra
+* Other actions that harm the reputation, stability, or harmony of the KubeOrch
   project.
 
 Removing a maintainer requires a 2/3 majority vote of the other maintainers.
 
 ## Voting
 
-While most business in KubeOrchestra is conducted by "lazy consensus", periodically
+While most business in KubeOrch is conducted by "lazy consensus", periodically
 the Maintainers may need to vote on specific actions or changes.
-A vote can be taken in [Community Discussions](https://github.com/KubeOrchestra/community/discussions)
+A vote can be taken in [Community Discussions](https://github.com/KubeOrch/community/discussions)
 or through private maintainer discussions for security or conduct matters.  
 Votes may also be taken at the community meeting. Any Maintainer may
 request a vote be taken.

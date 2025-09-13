@@ -1,12 +1,12 @@
 ---
 name: Feature Request
-about: Suggest an idea for Kubeorchestra
+about: Suggest an idea for KubeOrch
 title: ''
 labels: kind/enhancement
 assignees: ''
 
 ---
-<!-- Make sure that you visit our User Guide for Kubeorchestra.
+<!-- Make sure that you visit our User Guide for KubeOrch.
 -->
 
 **Is your feature request related to a problem? Please describe**:

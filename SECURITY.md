@@ -2,12 +2,12 @@
 
 ## Reporting a Vulnerability
 
-The KubeOrchestra project treats security vulnerabilities seriously, so we strive to take action quickly when required.
+The KubeOrch project treats security vulnerabilities seriously, so we strive to take action quickly when required.
 
 The project requests that security issues be disclosed in a responsible manner to allow adequate time to respond. If a security issue or vulnerability has been found, please disclose the details using one of the following methods:
 
 ### Primary Reporting Method
-Open a private security advisory using [GitHub's vulnerability report mechanism](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability) in the appropriate KubeOrchestra repository.
+Open a private security advisory using [GitHub's vulnerability report mechanism](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability) in the appropriate KubeOrch repository.
 
 ### Alternative Reporting Method
 If you cannot use GitHub's private reporting, please create a confidential issue in our community repository with the label "security" and mark it as confidential.
@@ -28,13 +28,13 @@ Any confidential information disclosed to the security team will be handled appr
 ## Security Notices
 
 Security notices will be published to:
-- The [KubeOrchestra Community Discussions](https://github.com/KubeOrchestra/community/discussions) under the Security category
+- The [KubeOrch Community Discussions](https://github.com/KubeOrch/community/discussions) under the Security category
 - Security Advisories page of the affected repository
 - Project documentation and release notes
 
 ## Security Team
 
-The security team currently consists of the Maintainers of KubeOrchestra. As the project grows, we will expand the security team to include security experts from the community and contributing organizations.
+The security team currently consists of the Maintainers of KubeOrch. As the project grows, we will expand the security team to include security experts from the community and contributing organizations.
 
 ## Response Timeline
 
@@ -44,7 +44,7 @@ The security team currently consists of the Maintainers of KubeOrchestra. As the
 
 ## Disclosure Policy
 
-KubeOrchestra follows a coordinated disclosure policy:
+KubeOrch follows a coordinated disclosure policy:
 
 1. Security vulnerabilities are handled privately until a fix is available
 2. We work with reporters to understand and reproduce issues
@@ -54,7 +54,7 @@ KubeOrchestra follows a coordinated disclosure policy:
 
 ## Security Best Practices
 
-KubeOrchestra is designed with security in mind:
+KubeOrch is designed with security in mind:
 
 - Self-deployable architecture reduces attack surface
 - IAM roles integration for secure cloud access
@@ -64,4 +64,4 @@ KubeOrchestra is designed with security in mind:
 
 ## Contact
 
-For any questions about this security policy or the security posture of KubeOrchestra, please open a discussion in the [KubeOrchestra Community](https://github.com/KubeOrchestra/community/discussions).
+For any questions about this security policy or the security posture of KubeOrch, please open a discussion in the [KubeOrch Community](https://github.com/KubeOrch/community/discussions).

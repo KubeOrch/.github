@@ -1,12 +1,12 @@
 ---
 name: Bug Report
-about: Report a bug in Kubeorchestra
+about: Report a bug in KubeOrch
 title: ''
 labels: kind/bug
 assignees: ''
 
 ---
-<!-- Make sure that you visit our User Guide for Kubeorchestra.
+<!-- Make sure that you visit our User Guide for KubeOrch.
 -->
 
 **What happened**:
@@ -22,7 +22,7 @@ Steps to reproduce the behavior.
 Add any other context about the problem here.
 
 **Environment**:
-- Kubeorchestra version (use `orchctl version`): N/A
+- KubeOrch version (use `orchctl version`): N/A
 - Kubernetes version (use `kubectl version`): N/A
 - VM or VMI specifications: N/A
 - Cloud provider or hardware configuration: N/A

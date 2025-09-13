@@ -23,13 +23,13 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           
-          # Explicitly specify only KubeOrchestra repositories
+          # Explicitly specify only KubeOrch repositories
           repositories: |
-            KubeOrchestra/.github
-            KubeOrchestra/community
-            KubeOrchestra/core
-            KubeOrchestra/ui
-            KubeOrchestra/cli
+            KubeOrch/.github
+            KubeOrch/community
+            KubeOrch/core
+            KubeOrch/ui
+            KubeOrch/cli
           
           # Optional: Clean other labels not defined in the config file
           clean-labels: true

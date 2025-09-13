@@ -1,12 +1,12 @@
 ---
 name: Docs Report
-about: Report an issue in Kubeorchestra's documentation
+about: Report an issue in KubeOrch's documentation
 title: ''
 labels: ''
 assignees: ''
 
 ---
-<!-- Make sure that you visit our User Guide for Kubeorchestra.
+<!-- Make sure that you visit our User Guide for KubeOrch.
 -->
 
 **Description**:
