@@ -1,0 +1,19 @@
+name: DCO Check
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+  statuses: write
+
+jobs:
+  dco:
+    name: DCO Sign-off Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check DCO
+        uses: tim-actions/dco@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
