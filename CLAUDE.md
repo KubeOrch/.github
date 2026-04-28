@@ -19,17 +19,18 @@ KubeOrch is a visual Kubernetes orchestration platform that eliminates YAML thro
 ### `core` — Orchestration Engine
 - **Language**: Go 1.25
 - **What**: Main backend — orchestration engine, API gateway, service topology manager
-- **Deployment**: Docker (multi-stage Dockerfile, golang:1.22-alpine builder)
+- **Database**: MongoDB
+- **Deployment**: Docker (multi-stage Dockerfile, golang:1.25-alpine builder)
 - **Docs**: https://docs.kubeorch.dev/reference/rest-api/
 
 ### `ui` — Web Interface
-- **Language**: TypeScript (Next.js, React)
+- **Language**: TypeScript (Next.js 16, React 19)
 - **What**: Visual drag-and-drop workflow builder, component palette, canvas editor
 - **Deployment**: Docker (node:20-alpine, multi-stage)
 - **Key packages**: Next.js, React, shadcn/ui, Tailwind CSS
 
 ### `cli` — orchcli
-- **Language**: Go 1.22
+- **Language**: Go 1.22.2
 - **What**: CLI for initializing, deploying, and managing Kubernetes clusters from the terminal
 - **Commands**: `orchcli init`, `orchcli start`, `orchcli stop`, `orchcli logs`
 - **Docs**: https://docs.kubeorch.dev/architecture/cli/commands/
@@ -42,7 +43,7 @@ KubeOrch is a visual Kubernetes orchestration platform that eliminates YAML thro
 - **Custom domain**: Configured via GitHub Pages settings
 
 ### `landing` — Marketing Site
-- **Language**: TypeScript (Next.js 16, React 19)
+- **Language**: TypeScript (Next.js 16.1, React 19)
 - **What**: Landing page — hero, features, pricing, testimonials, FAQ, newsletter
 - **Deployment**: Cloudflare Pages (auto-deploys from `main` branch)
 - **URL**: https://kubeorch.dev
@@ -98,7 +99,7 @@ KubeOrch is a visual Kubernetes orchestration platform that eliminates YAML thro
 | Frontend (docs) | Astro + Starlight |
 | Frontend (landing) | Next.js 16, React 19, Tailwind v4, shadcn/ui, Framer Motion |
 | CLI | Go |
-| Database | PostgreSQL (core) |
+| Database | MongoDB (core) |
 | Containerization | Docker |
 | DNS/CDN | Cloudflare |
 | Email | Resend + Cloudflare Email Routing |

@@ -32,11 +32,7 @@ Our project consists of three main components:
 
 ### Development Approach
 
-We follow a feature-based development approach rather than component-based to minimize integration challenges. Our initial focus areas include:
-- Visual workflow builder with real-time YAML preview
-- GitHub integration for automated deployment triggers
-- AWS EKS deployment support (with plans for multi-cloud expansion)
-- Cost optimization and alerting capabilities
+We follow a feature-based development approach rather than component-based to minimize integration challenges.
 
 ## Technical Guidelines
 
@@ -46,7 +42,7 @@ KubeOrch is designed as a self-deployable application to mitigate security risks
 - Docker Compose packaging for easy deployment
 - Self-hosted database for user configurations and deployment states
 - IAM roles integration for secure cloud access
-- Nix Packs tool integration for automatic containerization
+- Nixpacks integration for automatic containerization
 
 ### Testing
 
@@ -125,8 +121,8 @@ are welcome to apply for membership.
 ## Development Environment Setup
 
 ### Prerequisites
-- Go 1.21+ (for backend development)
-- Node.js 18+ (for frontend development)
+- Go 1.22+ (for backend and CLI development)
+- Node.js 20+ (for frontend development)
 - Docker and Docker Compose
 - Kubernetes cluster access (minikube/kind for local development)
 - Git
@@ -137,20 +133,6 @@ Our self-deployable architecture means you can run the entire stack locally usin
 - Backend API server
 - Database
 - Local Kubernetes integration
-
-## Project Phases
-
-### Current Phase: Foundation & MVP
-- Focus on frontend and backend development
-- Basic YAML generation capabilities
-- Drag-and-drop configuration interface
-- Direct deployment to Kubernetes clusters
-
-### Upcoming Features
-- GitHub integration for automated deployments
-- Multi-cloud provider support (starting with AWS EKS)
-- Advanced cost optimization algorithms
-- Enhanced security and compliance features
 
 ## Community
 
